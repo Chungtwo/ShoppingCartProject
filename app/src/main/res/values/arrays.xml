@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>6GB+64GB全网通</item>
+        <item>8GB+64GB全网通</item>
+        <item>8GB+128GB全网通</item>
+        <item>8GB+256GB全网通</item>
+    </string-array>
+</resources>

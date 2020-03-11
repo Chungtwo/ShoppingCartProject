@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.shoppingcartproject.MainActivity">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recycler_view"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       ></android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical">
+        <CheckBox
+            android:id="@+id/check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="全选"/>
+        <TextView
+            android:id="@+id/calc_all"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合计:¥0"
+            android:textColor="@color/colorBlack" />
+        <Button
+            android:id="@+id/btn_count"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_backg"
+            android:textColor="@color/colorWhite"
+            android:text="去结算(0)"
+            />
+    </LinearLayout>
+
+</LinearLayout>
